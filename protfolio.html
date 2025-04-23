@@ -1,0 +1,114 @@
+ <!-- Create a Portfolio page using HTML , it should contain
+
+-> Self introduction
+
+-> skills
+
+-> projects/work experiences (Git links)
+
+-> Feedback /achivements
+
+-> Education profile
+
+-> Contact information.(Social media /phone /email) -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protfolio</title>
+    <style>
+        body{
+            font-family: cursive;
+            background-color: white;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        h1,h2 {
+            text-align: center;
+        }
+        section {
+            background: lightskyblue;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 5px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            padding: 5px 0;
+        }
+        .contact a {
+            text-decoration: none;
+            color: red;
+        }
+        .projects a{
+            text-decoration: none;
+            color: red;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>My Portfolio</h1>
+        </header>
+        <section id="about">
+        <h2>Self Introduction</h2>
+        <p>I am Nareen Sai currently pursuing my Bachelor of Technology (B.Tech) in Computer science , <br>
+             in my third year in kmit college. I have a keen interest in software development, <br>
+             data structures, and algorithms. I am continuously exploring new technologies <br>
+             and enhancing my skills through hands-on projects and internships.
+
+        </p>
+    </section>
+        <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>React, Node.js</li>
+            <li>Python, Java</li>
+            <li>Database Management (MySQL, MongoDB)</li>
+        </ul>
+    </section>
+        <section id="projects" class="projects">
+        <h2>projects</h2>
+        <ul>
+            <li><a href="https://github.com/Nareen20/ToDo-List-using-MERN" target="_blank">ToDo-List-using-MERN </a></li>
+            <li><a href="https://github.com/Nareen20/cricket-llm" target="_blank">cricket-llm</a></li>
+            <li><a href="https://github.com/Nareen20/DomainChatBotForSMEs" target="_blank">DomainChatBotForSMEs</a></li>
+        </ul>
+    </section>
+    <section id="Experience">
+        <h2>Experience</h2>
+        <p>Worked as a TA(Teaching Asistant) in kmit college for los angeles <br>
+             professionals in DSA(javascript) for 3 months</p>
+        <h2>Achievements</h2>
+        <p>Received appreciation for [Achievement/Project]. <br>
+             Recognized for problem-solving skills.</p>
+    </section>
+        <section id="education">
+        <h2>Education Profile</h2>
+        <p>Bachelor of Technology in Computer Science - <br>
+            Keshav Memorial of Technology</p> <br>
+        </section>
+        <section id="contact" class="contact">
+        <h2>Contact Information</h2>
+        <p>Email: nareensai8@gmail.com</p>
+        <p>Phone: +91 7794808699</p>
+        <p>LinkedIn: <a href="www.linkedin.com/in/nareen-sai-baddula" target="_blank">LinkedIn Profile</a></p>
+        <p>GitHub: <a href="https://github.com/Nareen20" target="_blank">GitHub Profile</a></p>
+    </section>
+    </div>
+</body>
+</html>  
